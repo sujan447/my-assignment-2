@@ -2,7 +2,8 @@
 
 body{
     font-family: "Inter", sans-serif;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 /* defult style */
@@ -12,7 +13,7 @@ body{
 }
 .container{
     width: 90%;
-    margin: 5rem;
+    margin: 5rem auto;
     border-radius: 1rem;
 }
 .fitness{
@@ -29,6 +30,7 @@ body{
     font-weight: 500;
     padding: 6px;
     border-radius: 16px;
+    text-align: center;
     
 }
 /* navbar css styles start here */
@@ -47,10 +49,95 @@ body{
     font-size: 18px;
     line-height: normal;
     font-weight: normal;
-    /* color: white; */
+    color: white;
 
 }
 .nav-hamburger{
     display: none;
 }
 /* navbar css styles end here */
+
+/* banner css styles start here */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: rgba(255, 255, 255, 0.1);
+  
+}
+.banner-content{
+    width: 50%;
+    /* border: 1px solid greenyellow;  */
+    position: relative;
+}
+.banner-content img{
+    width: 100%;
+}
+.banner-heading{
+  font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    
+}
+
+/*   
+  .text-shape{
+    font-family: 
+  }  */
+   
+
+.banner-para{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.btn-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.download-app{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px;
+    border: 1px solid rgba(245, 245, 245, 0.493);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.video-tutorial{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    border: 1px solid rgba(245, 245, 245, 0.253) ;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.1);
+    width: max-content;
+    padding: 5px ;
+    position: absolute;
+    top: 67%;
+    right: 30%;
+}
+.circle{
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.tutorial{
+    color:rgba(255, 255, 255, 0.5); 
+ 
+}
+.free-workout{
+    font-size: 14px;
+    border: 1px solid rgba(245, 245, 245, 0.253) ;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.1);
+    width: max-content;
+    padding: 5px ;
+    position: absolute;
+    top: 50%;
+    left: 78%;
+}
+/* banner css styles end here */

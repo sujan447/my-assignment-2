@@ -15,5 +15,23 @@
                         margin: 1rem;
                         border-radius: 1rem;
                     }
-    
+    /* banner responsive start here */
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        position: relative;
+    }
+    .video-tutorial{
+        position: absolute;
+        top: 75%;
+        left: 12%;
+    }
+    .free-workout{
+        position: absolute;
+        top: 65%;
+        left: 45%;
+    }
+    /* banner responsive end here */
 }
