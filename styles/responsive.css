@@ -34,4 +34,26 @@
         left: 45%;
     }
     /* banner responsive end here */
+
+    /* change your habit responsive start here */
+    .change-habit{
+       
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    /* change your habit responsive end here */
+
+/* <!-- run an extra mile responsive start here */
+.run-container{
+    flex-direction: column;
+   
 }
+
+.run-content{
+    width: 100%;
+   
+}
+.span1{
+    margin-bottom: 20px;
+}
+/* <!-- run an extra mile responsive end here --> */

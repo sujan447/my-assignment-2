@@ -33,6 +33,17 @@ body{
     text-align: center;
     
 }
+.h2-headline{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.h4-heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 /* navbar css styles start here */
 .navbar{
     display: flex;
@@ -91,6 +102,7 @@ body{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
+
 }
 .btn-2{
     display: flex;
@@ -141,3 +153,45 @@ body{
     left: 78%;
 }
 /* banner css styles end here */
+
+ /* change your habit css styles start here  */
+.change-habit-container{
+text-align: center;
+}
+.change-habit img{
+    border-radius: 50%;
+}
+.change-habit{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+   
+}
+.exercise-image{
+    text-align: center;
+}
+
+ /* change your habit css styles end here  */
+
+ /*  run an extra mile css styles start here --> */
+ .run-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(34, 34, 34, 1)
+ }
+.run-content{
+    width: 45%;
+}
+.span1{
+    width: 50%;
+}
+.run-content img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+ /* run an extra mile css styles end here --> */
+
