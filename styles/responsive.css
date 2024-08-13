@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+   
+         .nav-option{
+            display: none;
+         }   
+         .nav-hamburger{
+            display: block;
+                }
+                .navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    }
+                    .container{
+                        width: 90%;
+                        margin: 1rem;
+                        border-radius: 1rem;
+                    }
+    
+}
