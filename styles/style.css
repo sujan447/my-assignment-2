@@ -38,11 +38,17 @@ body{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.h3-heading{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
 .h4-heading{
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 
 /* navbar css styles start here */
 .navbar{
@@ -179,7 +185,7 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color:rgba(34, 34, 34, 1)
+    background-color:rgba(34, 34, 34, 1);
  }
 .run-content{
     width: 45%;
@@ -195,3 +201,59 @@ text-align: center;
 
  /* run an extra mile css styles end here --> */
 
+ /* bmi calculator css styles start here */
+ .bmi{
+    text-align: center;
+ }
+ .background-color{
+    background-color:rgba(34, 34, 34, 1) ;
+    padding: 20px;
+ }
+ .bmi-container{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+ }
+ .bmi-content{
+    width: 50%;
+ }
+ table{
+    border-collapse: collapse;
+ }
+ td, th{
+    border: 1px solid rgba(245, 245, 245, 0.411);
+    padding:20px ;
+ }
+ td{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+ }
+ /* bmi calculator css styles end here */
+
+ /* meet our team css styles starts here */
+ .meet-our-team{
+    text-align: center;
+ }
+.trainer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+    /* position: relative; */
+}
+.trainer-container>div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+
+}
+.triner-image{
+    position: relative;
+}
+.trainer-content{
+    position: absolute;
+    bottom: 10%;
+   
+  
+}
+ /* meet our team css styles end here */
