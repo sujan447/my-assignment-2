@@ -71,3 +71,12 @@
     height: 100%;
 }
 /* meet our team responsive end here */
+
+/* footer responsive start here */
+.footer-container{
+   
+    
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* fotter responsive end here */

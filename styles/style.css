@@ -21,6 +21,7 @@ body{
     font-size:2.25rem ;
     font-weight: 800;
     font-style: italic;
+    margin-bottom: 20px;
     
 }
 .span{
@@ -107,7 +108,7 @@ body{
 .banner-para{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 .btn-2{
@@ -257,3 +258,22 @@ text-align: center;
   
 }
  /* meet our team css styles end here */
+
+
+ /* footer css styles stare here */
+ .footer-background{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+ }
+.footer-container{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-line{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+ /* footer css styles end here */
