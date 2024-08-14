@@ -12,7 +12,7 @@ body{
     margin: 0;
 }
 .container{
-    width: 90%;
+    width: 1200px;
     margin: 5rem auto;
     border-radius: 1rem;
 }
@@ -49,7 +49,10 @@ body{
     font-weight: 500;
     margin-bottom: 10px;
 }
-
+/* background color change */
+.background-color-change{
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 /* navbar css styles start here */
 .navbar{
@@ -78,31 +81,32 @@ body{
 /* banner css styles start here */
 .banner-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+   align-items: center;
+
     /* border: 2px solid red; */
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
   
 }
 .banner-content{
-    width: 50%;
+    width: 100%;
     /* border: 1px solid greenyellow;  */
     position: relative;
 }
 .banner-content img{
-    width: 100%;
+    width: 80%;
 }
 .banner-heading{
-  font-size: 40px;
+  font-size: 70px;
     font-weight: 800;
     margin-bottom: 40px;
     
 }
 
-/*   
-  .text-shape{
-    font-family: 
-  }  */
+  
+  /* .text-shape{
+  
+  } */
    
 
 .banner-para{
@@ -137,8 +141,8 @@ body{
     width: max-content;
     padding: 5px ;
     position: absolute;
-    top: 67%;
-    right: 30%;
+    top: 77%;
+    right: 87%;
 }
 .circle{
     border: 10px solid red;
@@ -157,7 +161,7 @@ body{
     padding: 5px ;
     position: absolute;
     top: 50%;
-    left: 78%;
+    left: 68%;
 }
 /* banner css styles end here */
 
@@ -216,7 +220,7 @@ text-align: center;
    gap: 20px;
  }
  .bmi-content{
-    width: 50%;
+    width: 47%;
  }
  table{
     border-collapse: collapse;
@@ -229,6 +233,23 @@ text-align: center;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
  }
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(3, 50px);
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.form-container input,select{
+    border: 1px solid rgba(255, 255, 255, 0.5) ;
+    background-color:rgba(255, 255, 255, 0.1);
+    text-align:center;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+}
+
  /* bmi calculator css styles end here */
 
  /* meet our team css styles starts here */
@@ -248,14 +269,19 @@ text-align: center;
     border-radius: 12px;
 
 }
-.triner-image{
+.trainer-image{
     position: relative;
 }
 .trainer-content{
     position: absolute;
-    bottom: 10%;
-   
+    bottom: 14%;
+    left: 10%;
   
+}
+.trainer-content-p{
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
 }
  /* meet our team css styles end here */
 
